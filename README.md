@@ -15,7 +15,7 @@
 
 ---
 
-Full Stack Developer (JavaScript / Node.js · PHP / Laravel) que **construye y opera sus propios SaaS en producción** — pagos reales, autenticación OAuth, IA e infraestructura propia en VPS. Menos código de muestra, más productos funcionando.
+Desarrollador Full Stack (JavaScript / Node.js · PHP / Laravel). Hago aplicaciones web completas — del backend al despliegue — y mantengo **dos SaaS propios en producción** con pagos reales, autenticación OAuth e infraestructura en VPS.
 
 ### 🚀 Proyectos en producción
 
