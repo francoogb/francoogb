@@ -19,34 +19,13 @@ Full Stack Developer con foco en **JavaScript / Node.js y PHP / Laravel**. Dise�
 
 ### 🚀 Proyectos en producción
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🖼️ [Compress IQ](https://compressiq.com) · [repo](https://github.com/francoogb/compressiq-showcase)
-
+**🖼️ [Compress IQ](https://compressiq.com)** · [repo](https://github.com/francoogb/compressiq-showcase)
 SaaS de edición de imágenes con IA — eliminación de fondo, coloreado, inpainting y upscaling.
-
-- 💳 Pagos con Paddle · 🔐 Google OAuth · 🪙 créditos por uso
-- 🤖 IA vía Replicate · 🌐 i18n ES/EN · 🚀 VPS + Nginx + PM2
-
 `Node.js · Express 5 · MySQL · Paddle · Replicate`
 
-</td>
-<td width="50%" valign="top">
-
-#### 🎓 [CalculaPromedio.cl](https://calculapromedio.cl) · [repo](https://github.com/francoogb/calculapromedio-showcase)
-
-Plataforma educativa para estudiantes chilenos: calculadoras, ejercicios PAES, flashcards y tutor IA.
-
-- 💳 Pagos con Flow.cl (HMAC-SHA256) · 🔐 Auth custom + Google OAuth
-- 🎮 Gamificación (XP, niveles, rachas) · 🔍 SEO técnico con JSON-LD
-
+**🎓 [CalculaPromedio.cl](https://calculapromedio.cl)** · [repo](https://github.com/francoogb/calculapromedio-showcase)
+Plataforma educativa para estudiantes chilenos — calculadoras, ejercicios PAES, flashcards SM-2 y tutor IA.
 `Laravel 12 · PHP 8.2 · MySQL · Alpine.js`
-
-</td>
-</tr>
-</table>
 
 ### 🛠️ Stack
 
