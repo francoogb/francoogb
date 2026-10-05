@@ -17,39 +17,56 @@
 
 ### Sobre mí
 
-Soy desarrollador Full Stack con foco en **JavaScript y Node.js**. Construyo aplicaciones web completas de principio a fin: backend, base de datos, autenticación, integraciones de pago, interfaces y despliegue.
+Soy desarrollador Full Stack con foco en **JavaScript / Node.js y PHP / Laravel**. Construyo aplicaciones web completas de principio a fin: backend, base de datos, autenticación, integraciones de pago, interfaces, infraestructura y despliegue.
 
-Actualmente estoy desarrollando **[Compress IQ](https://github.com/francoogb/compressiq-app)**, una plataforma SaaS de edición de imágenes con IA, donde he implementado desde el sistema de créditos y la integración de pagos hasta la conexión con modelos de inteligencia artificial.
+Actualmente opero **dos SaaS propios en producción** — [Compress IQ](https://github.com/francoogb/compressiq-showcase) (edición de imágenes con IA) y [CalculaPromedio.cl](https://github.com/francoogb/calculapromedio-showcase) (plataforma educativa para estudiantes chilenos) — donde he implementado desde los sistemas de autenticación OAuth y las integraciones de pago (Paddle internacional y Flow.cl para Chile) hasta la gestión de VPS, scheduler y despliegue continuo.
 
-Me interesa trabajar en productos reales, con usuarios reales. No busco solo "escribir código" — busco construir cosas que funcionen en producción.
+Me interesa trabajar en productos reales. No busco solo "escribir código" — busco construir cosas que funcionen en producción, con pasarelas de pago reales, integraciones externas y usuarios reales.
 
 ---
 
-### 🏆 Proyecto principal
+### 🏆 Proyectos en producción
 
 <table>
 <tr>
-<td width="100%">
+<td width="50%" valign="top">
 
-#### 🖼️ [Compress IQ](https://github.com/francoogb/compressiq-app)
+#### 🖼️ [Compress IQ](https://github.com/francoogb/compressiq-showcase)
 
-**Plataforma SaaS de edición de imágenes impulsada por IA**
+**SaaS de edición de imágenes con IA**
+🔗 [compressiq.com](https://compressiq.com)
 
-Aplicación web full stack construida con Node.js y Express 5. Ofrece herramientas de edición de imágenes mediante modelos de inteligencia artificial: eliminación de fondo, coloreado de fotos antiguas, inpainting, upscaling, compresión inteligente y mejora de colores.
+Aplicación web full stack con Node.js y Express 5. Herramientas de edición potenciadas por modelos de IA externos: eliminación de fondo, coloreado, inpainting, upscaling.
 
-**Implementaciones destacadas:**
+**Destacados:**
+- 💳 Pagos integrados con **Paddle**
+- 🔐 Auth con **Google OAuth**
+- 🪙 Sistema de créditos (registrados + anónimos)
+- 🤖 Integración con **Replicate** para IA
+- 🌐 **i18n** ES/EN con rutas localizadas
+- 🚀 **VPS DreamHost** + Nginx + PM2 (zero-downtime)
 
-- 💳 **Sistema de pagos** integrado con Paddle
-- 🔐 **Autenticación** con Google OAuth
-- 🪙 **Sistema de créditos** personalizado para usuarios registrados (MySQL) y anónimos (tracking por cookie)
-- 🤖 **Integración con Replicate** para ejecución de modelos de IA
-- 🌐 **Internacionalización (i18n)** español/inglés con rutas duplicadas (`/colorear-foto` ↔ `/colorize-photo`)
-- 📧 **Nodemailer** para correos transaccionales (recuperación de contraseña)
-- ⚙️ **Modo mantenimiento** controlado por configuración
-- 🧹 **Tareas programadas** con node-cron para limpieza automática del almacenamiento local
-- 🚀 **Infraestructura propia:** VPS DreamHost + Nginx + PM2 con despliegues zero-downtime
+**Stack:** `Node.js` · `Express 5` · `MySQL` · `Paddle` · `OAuth 2.0` · `Replicate`
 
-**Stack:** `Node.js` · `Express 5` · `Handlebars` · `MySQL` · `SQLite` · `Paddle` · `OAuth 2.0` · `Replicate` · `Nginx` · `PM2`
+</td>
+<td width="50%" valign="top">
+
+#### 🎓 [CalculaPromedio.cl](https://github.com/francoogb/calculapromedio-showcase)
+
+**SaaS educativo para estudiantes chilenos**
+🔗 [calculapromedio.cl](https://calculapromedio.cl)
+
+Plataforma full stack con Laravel 12. 47 calculadoras, 242 ejercicios PAES, 36 lecciones de teoría, flashcards SM-2, tutor con IA, gamificación completa.
+
+**Destacados:**
+- 💳 Pagos integrados con **Flow.cl** (HMAC-SHA256)
+- 🔐 Auth custom + **Google OAuth** (Socialite)
+- 🎮 **Gamificación**: XP, niveles, rachas, logros
+- 🤖 Tutor con IA sobre contenido propio
+- 🧠 **Algoritmo SM-2** para flashcards
+- 🔍 **SEO técnico**: 6 tipos de JSON-LD en 46+ páginas
+
+**Stack:** `Laravel 12` · `PHP 8.2` · `MySQL` · `Flow.cl` · `OAuth 2.0` · `Alpine.js`
 
 </td>
 </tr>
@@ -92,6 +109,7 @@ Aplicación web full stack construida con Node.js y Express 5. Ofrece herramient
 **Integraciones & Servicios**
 
 ![Paddle](https://img.shields.io/badge/-Paddle-FDDD35?style=flat-square&logo=paddle&logoColor=black)
+![Flow.cl](https://img.shields.io/badge/-Flow.cl-00B4D8?style=flat-square)
 ![Webpay](https://img.shields.io/badge/-Webpay%20Transbank-EE0000?style=flat-square&logo=mercadopago&logoColor=white)
 ![Google OAuth](https://img.shields.io/badge/-Google%20OAuth-4285F4?style=flat-square&logo=google&logoColor=white)
 ![Replicate](https://img.shields.io/badge/-Replicate-000000?style=flat-square&logo=replicate&logoColor=white)
@@ -122,13 +140,13 @@ Tienda en línea con integración de la pasarela de pago **Webpay de Transbank**
 Aplicación Laravel con CRUD de productos, generación de PDF, envío de correos, búsqueda por nombre y listado con categorías. Incluye registro e inicio de sesión de usuarios.
 `PHP` · `Laravel` · `MySQL`
 
-**⚛️ [CRUD con React + React Router](https://github.com/francoogb/React-Crud)**
-Aplicación SPA con CRUD completo, navegación con React Router DOM y diseño con Bootstrap. Práctica de arquitectura de componentes y manejo de estado.
-`JavaScript` · `React` · `Vite` · `Bootstrap`
+**📋 [ModernFormUI](https://github.com/francoogb/ModernFormUI)**
+Formulario dinámico y validado con **React + TypeScript + Zod + React Hook Form**. Stack moderno con validación robusta y UI profesional.
+`TypeScript` · `React` · `Zod` · `React Hook Form`
 
-**🐦 [Clon de Twitter en React](https://github.com/francoogb/Twitter-Interface-Clone-con-React)**
-Clon de la interfaz de Twitter/X con diseño responsive. Práctica con componentes controlados/no controlados y hooks de React.
-`React` · `Vite` · `Tailwind CSS`
+**📰 [Clasificados Next.js](https://github.com/francoogb/Clasificados-Next.js)**
+Aplicación web de avisos clasificados construida en **Next.js**, que consume una API externa para mostrar categorías, avisos e imágenes.
+`Next.js` · `React` · `API REST`
 
 ---
 
