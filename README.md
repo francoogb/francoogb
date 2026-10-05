@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Desarrollador Full Stack · JavaScript / Node.js</strong><br/>
-  📍 Santiago de Chile
+  📍 Viña del Mar, Chile · disponible para Santiago y 100% remoto
 </p>
 
 <p align="center">
@@ -128,26 +128,13 @@ Clon de la interfaz de Twitter/X con diseño responsive. Práctica con component
 
 ---
 
-### 📊 Estadísticas de GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=francoogb&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=francoogb&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=francoogb&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
----
-
 ### 📬 ¿Trabajamos juntos?
 
-Estoy abierto a oportunidades laborales — presenciales en Santiago o remotas. Si estás buscando un desarrollador que entregue proyectos funcionando de principio a fin, con experiencia real en integraciones de pago, autenticación OAuth, IA y arquitectura full stack, conversemos.
+Estoy abierto a oportunidades laborales — presenciales en Viña del Mar o Santiago, y 100% remotas. Si estás buscando un desarrollador que entregue proyectos funcionando de principio a fin, con experiencia real en integraciones de pago, autenticación OAuth, IA y arquitectura full stack, conversemos.
 
 - 📧 **Email:** [fran.valdenegr@gmail.com](mailto:fran.valdenegr@gmail.com)
 - 💼 **GitHub:** [@francoogb](https://github.com/francoogb)
-- 📍 **Ubicación:** Santiago de Chile
+- 📍 **Ubicación:** Viña del Mar, Chile (disponible para Santiago)
 
 <p align="center">
   <em>Gracias por pasar por mi perfil 🚀</em>
