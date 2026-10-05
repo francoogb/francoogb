@@ -43,14 +43,13 @@ Aplicación web full stack construida con Node.js y Express 5. Ofrece herramient
 - 🔐 **Autenticación** con Google OAuth
 - 🪙 **Sistema de créditos** personalizado para usuarios registrados (MySQL) y anónimos (tracking por cookie)
 - 🤖 **Integración con Replicate** para ejecución de modelos de IA
-- 🧠 **Anthropic Claude API** usada en controladores de procesamiento
-- ☁️ **Cloudinary** para almacenamiento y servido de imágenes
 - 🌐 **Internacionalización (i18n)** español/inglés con rutas duplicadas (`/colorear-foto` ↔ `/colorize-photo`)
 - 📧 **Nodemailer** para correos transaccionales (recuperación de contraseña)
 - ⚙️ **Modo mantenimiento** controlado por configuración
-- 🧹 **Tareas programadas** con node-cron para limpieza de archivos
+- 🧹 **Tareas programadas** con node-cron para limpieza automática del almacenamiento local
+- 🚀 **Infraestructura propia:** VPS DreamHost + Nginx + PM2 con despliegues zero-downtime
 
-**Stack:** `Node.js` · `Express 5` · `Handlebars` · `MySQL` · `SQLite` · `Paddle` · `OAuth 2.0` · `Replicate` · `Cloudinary`
+**Stack:** `Node.js` · `Express 5` · `Handlebars` · `MySQL` · `SQLite` · `Paddle` · `OAuth 2.0` · `Replicate` · `Nginx` · `PM2`
 
 </td>
 </tr>
@@ -95,9 +94,14 @@ Aplicación web full stack construida con Node.js y Express 5. Ofrece herramient
 ![Paddle](https://img.shields.io/badge/-Paddle-FDDD35?style=flat-square&logo=paddle&logoColor=black)
 ![Webpay](https://img.shields.io/badge/-Webpay%20Transbank-EE0000?style=flat-square&logo=mercadopago&logoColor=white)
 ![Google OAuth](https://img.shields.io/badge/-Google%20OAuth-4285F4?style=flat-square&logo=google&logoColor=white)
-![Cloudinary](https://img.shields.io/badge/-Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white)
 ![Replicate](https://img.shields.io/badge/-Replicate-000000?style=flat-square&logo=replicate&logoColor=white)
-![Anthropic](https://img.shields.io/badge/-Anthropic%20Claude-191919?style=flat-square&logo=anthropic&logoColor=white)
+
+**Infraestructura & DevOps**
+
+![Nginx](https://img.shields.io/badge/-Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![PM2](https://img.shields.io/badge/-PM2-2B037A?style=flat-square&logo=pm2&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux_VPS-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Let's Encrypt](https://img.shields.io/badge/-Let's_Encrypt_SSL-003A70?style=flat-square&logo=letsencrypt&logoColor=white)
 
 **Herramientas**
 
