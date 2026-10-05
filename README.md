@@ -15,7 +15,7 @@
 
 ---
 
-Full Stack Developer con foco en **JavaScript / Node.js y PHP / Laravel**. Diseño, construyo y **opero mis propios SaaS en producción**: pagos reales (Paddle, Flow.cl), autenticación OAuth, integraciones de IA e infraestructura propia en VPS. Me interesan los productos que funcionan en el mundo real, no solo el código.
+Full Stack Developer (JavaScript / Node.js · PHP / Laravel) que **construye y opera sus propios SaaS en producción** — pagos reales, autenticación OAuth, IA e infraestructura propia en VPS. Menos código de muestra, más productos funcionando.
 
 ### 🚀 Proyectos en producción
 
