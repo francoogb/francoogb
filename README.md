@@ -15,7 +15,7 @@
 
 ---
 
-Desarrollador Full Stack (JavaScript / Node.js · PHP / Laravel). Hago aplicaciones web completas — del backend al despliegue — y mantengo **dos SaaS propios en producción** con pagos reales, autenticación OAuth e infraestructura en VPS.
+Desarrollador Full Stack (JavaScript / Node.js · PHP / Laravel). Hago aplicaciones web completas — del backend al despliegue — y me gusta construir cosas que la gente use de verdad.
 
 ### 🚀 Proyectos en producción
 
